@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  <title>Web Design Tutor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="indexStyle.css">
+  <script src="game.js"></script>
+
+  <div id="topBar">
+    <img id="logo" src="pictures/WebDevLogo.png" alt="">
+    <nav id="navBar">
+      <ul>
+        <li><a class="navTag" href="cssSub.html">Learn CSS</a></li>
+        <li><a class="navTag" href="htmlSub.html">Learn HTML5</a></li>
+        <li><a class="navTag" href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+  <div id="main">
+    <div id="welcomeText">
+      <span id="pageTitle">Welcome</span><br>
+      <hr>
+      The purpose of the website is to teach you the basics of HTML and CSS. Use the bar at the
+      top of the page and select what you would like to learn to get started. You can also stay
+      here and play a number betting game.<br><br>
+    </div>
+
+    <div id="gameContTitle">
+      <span style="font-weight: bold; font-size: 30px; color: white;">Random Betting Game</span>
+      <div id="gameContainer">
+        <p style="text-decoration: underline;">Enter a number between 0-999</p>
+        <input id="numBet" type="text" name="numBet" placeholder="Enter Bet Here"><br>
+        <button id='bet' type="button" onclick="getRandom();">PLAY</button><br>
+        Your Random Number: <span id="randomNum"></span><br>
+        <p id="wallet">Current Wallet: $250.00</p>
+        <p>Wins: <span id="wins">0</span> Loses: <span id="loses">0</span></p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

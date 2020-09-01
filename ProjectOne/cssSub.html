@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  <title>Web Design Tutor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="learnStyle.css">
+  <div id="topBar">
+    <img id="logo" src="pictures/WebDevLogo.png" alt="">
+    <nav id="navBar">
+      <ul>
+        <li><a class="navTag" href="cssSub.html">Learn CSS</a></li>
+        <li><a class="navTag" href="htmlSub.html">Learn HTML5</a></li>
+        <li><a class="navTag" href="index.html">Home</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+  <div id="main">
+    <span id="pageTitle">Learning CSS: </span><br>
+    <hr><br>
+
+    <ul id="info">
+      <div class="bullet">
+        <li id="question">What is CSS?</li>
+        CSS stands for Cascading Style Sheet
+        This is a coding language used for adding style to a webpage.
+      </div>
+
+      <div class="bullet">
+        <li id="question">General CSS Syntax:</li>
+        selector{cssStatement: value;}
+      </div>
+
+      <div class="bullet">
+        <li id="question">3 Major kinds of CSS Selectors:</li>
+        <ol>
+          <li>Class Selector: <br>.className{statement: value;}</li>
+          <li>Tag Selector:<br>tagName{statement: value;}</li>
+          <li>ID Selector:<br>#idName{statements: value;}</li>
+        </ol>
+      </div>
+
+      <div class="bullet">
+        <li id="question">Three levels of CSS Styling:</li>
+        <ol>
+          <li>Inline CSS: Uses HTML attributes to style an individual element.</li>
+          <img id="example" style="width: 300px;" src="pictures/inlineCSS.png" alt="">
+          <li>Embedded CSS: Places a CSS document in the html document to be used.</li>
+          <img id="example" style="width: 300px;" src="pictures/embeddedCSS.png" alt="">
+          <li>External CSS: Defines a CSS document outside of the HTML document to create a seperate file that ends in .css.</li>
+          <img id="example" style="width: 300px;" src="pictures/externalCSS.png" alt="">
+        </ol>
+      </div>
+
+      <div class="bullet">
+        <li id="question">Properties of CSS:</li>
+        These are styles you can apply to your HTML elements.
+        <img id="example" style="width: 400px;" src="pictures/properties.png" alt="">
+      </div>
+
+      <div class="bullet">
+        <li id="question">Other selectors in CSS:</li>
+        <img id="example" style="width: 400px;" src="pictures/selectors.png" alt="">
+      </div>
+
+      <div class="bullet">
+        <li id="question">Pseudo Classes:</li>
+        <ol>
+          <li>:hover</li>
+          Changes the element when the cursor hovers over it <br>
+          <div id="hover">Example</div><br>
+
+          <li>:active</li>
+          Changes the element when you click and hold it<br>
+          <div id="active">Example</div><br>
+
+          <li>:link</li>
+          Styles links not clicked yet<br>
+          <a href="#">
+            <div id="link">Example</div><br>
+          </a>
+
+          <li>:visited</li>
+          Styles links that have been clicked<br>
+          <a href="#">
+            <div id="visited">Example</div><br>
+          </a>
+        </ol>
+        <img style="width: 200px;" id="example" src="pictures/pseudo.png" alt="">
+      </div>
+    </ul>
+  </div>
+</body>
+
+</html>

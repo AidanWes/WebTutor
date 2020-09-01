@@ -1,0 +1,61 @@
+body {
+  font-family: roboto;
+  overflow: hidden;
+}
+
+#welcomeText {
+  width: 500px;
+  line-height: 50px;
+  text-align: center;
+  margin: 30px auto 0px auto;
+  font-size: 19px;
+  color: white;
+  font-weight: 900;
+}
+
+#gameContTitle {
+  text-align: center;
+  font-size: 22px;
+}
+
+#gameContainer {
+  background: rgb(106, 0, 67);
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+  color: white;
+  border: 3px solid rgb(150, 10, 131);
+  font-weight: 900;
+}
+
+#numBet {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 2px solid black;
+  background: rgb(150, 10, 131);
+}
+
+#bet {
+  margin: 10px 0px 20px 0px;
+  padding: 5px 6px 5px 6px;
+  letter-spacing: 2px;
+  width: 70px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  background: rgb(0, 162, 232);
+  border: 1px solid black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#bet:hover {
+  color: white;
+}
+
+#wins {
+  margin-right: 50px;
+}

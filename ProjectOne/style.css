@@ -1,0 +1,71 @@
+header {
+  background: rgb(0, 162, 232);
+  border-radius: 8px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 8px 15px 5px 15px;
+  font-family: cursive;
+  box-shadow: 2px 2px #222;
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.95);
+}
+
+body {
+  background-image: url("pictures/webBack.png");
+  background-size: 1920px 1080px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 20px;
+  float: right;
+}
+
+#pageTitle {
+  font-size: 40px;
+  font-weight: 200;
+  padding: 80px 0px 30px 0px;
+}
+
+#logo {
+  width: 120px;
+  padding-top: 5px;
+  float: left;
+}
+
+#topBar {
+  margin: auto;
+  height: 70px;
+}
+
+.navTag {
+  padding: 10px;
+  margin-left: 70px;
+  font-size: 21px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+.navTag:hover {
+  color: rgb(70, 70, 70);
+  text-shadow: 1px 1px black;
+}
+
+#main {
+  margin: 80px auto;
+  width: 50%;
+  height: 780px;
+  background: rgb(0, 1, 47);
+  color: white;
+  margin-top: 15px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.95);
+}

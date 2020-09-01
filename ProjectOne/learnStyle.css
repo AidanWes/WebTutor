@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  font-family: roboto;
+  font-weight: 200;
+  font-size: 19px;
+  line-height: 30px;
+  background-size: 1920px 4580px;
+}
+
+#main {
+  font-weight: 900;
+  padding: 40px;
+  width: 47%;
+  height: 100%;
+}
+
+#example {
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.95);
+  width: 70%;
+  margin: auto;
+}
+
+#info {
+  margin: 0 auto;
+  width: 70%;
+}
+
+ul li {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+ul {
+  text-align: left;
+}
+
+.bullet {
+  padding-bottom: 50px;
+}
+
+#question {
+  font-size: 22px;
+  color: rgb(118, 205, 226);
+}
+
+#codeExample {
+  border: 2px solid black;
+}
+
+#hover:hover {
+  color: red;
+}
+
+#active:active {
+  font-size: 30px;
+}
+
+#link:link {
+  color: blue;
+}
+
+#link:visited {
+  color: red;
+}
